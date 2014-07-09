@@ -1,9 +1,13 @@
 #!/usr/bin/python -i
 
-import socket, struct, re, select, sys, datetime
-
-import encode
 import config
+import datetime
+import encode
+import re
+import select
+import socket
+import struct
+import sys
 
 __macos__ = sys.platform == 'darwin'
 
